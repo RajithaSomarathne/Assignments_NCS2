@@ -1,0 +1,214 @@
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=1
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 28 Mar 2022 14:09:11 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 998
+X-Ratelimit-Reset: 1648373280
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 10816
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1lCg3RXkdd%2FYJ15ctybucM99cOkRJh8QG%2F2DndioityqrjUs8uOAmrdpkqelIss41KMXF0d8SXPaZBPWjNJBCjr0kQWirlbHexIH2f6%2BqjK5obRRw1RVVtQoN2EyWPJm3C8j5qxKf3ft82yEkar6"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6f30f12c5ed58976-SIN
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+            "lat": "-37.3159",
+            "lng": "81.1496"
+        }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+    }
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts?userId=5
+Proxy:			<none>
+Request params:	userId=5
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 28 Mar 2022 14:09:11 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1648476372
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"b2d-1VNHKGeFvCHCaIvJVU7cRyVMjxY"
+Content-Encoding: gzip
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 198
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=53dMw2O3MSrdo50VqUyRmZZkPD6fgOIuwu8VRIWlJxNZ%2BY%2FhEpJWmyCaupI2i0NuoowlDt02v0n7hXhWuxD7U4rfVRa5VNEzifvkYuUlv%2FK5cA3NOMpOsyTqZ3cfVyKZ1T34dz53vSEK61hbVjAV"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6f30f12f8bcc6c90-SIN
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+[
+    {
+        "userId": 5,
+        "id": 41,
+        "title": "non est facere",
+        "body": "molestias id nostrum\nexcepturi molestiae dolore omnis repellendus quaerat saepe\nconsectetur iste quaerat tenetur asperiores accusamus ex ut\nnam quidem est ducimus sunt debitis saepe"
+    },
+    {
+        "userId": 5,
+        "id": 42,
+        "title": "commodi ullam sint et excepturi error explicabo praesentium voluptas",
+        "body": "odio fugit voluptatum ducimus earum autem est incidunt voluptatem\nodit reiciendis aliquam sunt sequi nulla dolorem\nnon facere repellendus voluptates quia\nratione harum vitae ut"
+    },
+    {
+        "userId": 5,
+        "id": 43,
+        "title": "eligendi iste nostrum consequuntur adipisci praesentium sit beatae perferendis",
+        "body": "similique fugit est\nillum et dolorum harum et voluptate eaque quidem\nexercitationem quos nam commodi possimus cum odio nihil nulla\ndolorum exercitationem magnam ex et a et distinctio debitis"
+    },
+    {
+        "userId": 5,
+        "id": 44,
+        "title": "optio dolor molestias sit",
+        "body": "temporibus est consectetur dolore\net libero debitis vel velit laboriosam quia\nipsum quibusdam qui itaque fuga rem aut\nea et iure quam sed maxime ut distinctio quae"
+    },
+    {
+        "userId": 5,
+        "id": 45,
+        "title": "ut numquam possimus omnis eius suscipit laudantium iure",
+        "body": "est natus reiciendis nihil possimus aut provident\nex et dolor\nrepellat pariatur est\nnobis rerum repellendus dolorem autem"
+    },
+    {
+        "userId": 5,
+        "id": 46,
+        "title": "aut quo modi neque nostrum ducimus",
+        "body": "voluptatem quisquam iste\nvoluptatibus natus officiis facilis dolorem\nquis quas ipsam\nvel et voluptatum in aliquid"
+    },
+    {
+        "userId": 5,
+        "id": 47,
+        "title": "quibusdam cumque rem aut deserunt",
+        "body": "voluptatem assumenda ut qui ut cupiditate aut impedit veniam\noccaecati nemo illum voluptatem laudantium\nmolestiae beatae rerum ea iure soluta nostrum\neligendi et voluptate"
+    },
+    {
+        "userId": 5,
+        "id": 48,
+        "title": "ut voluptatem illum ea doloribus itaque eos",
+        "body": "voluptates quo voluptatem facilis iure occaecati\nvel assumenda rerum officia et\nillum perspiciatis ab deleniti\nlaudantium repellat ad ut et autem reprehenderit"
+    },
+    {
+        "userId": 5,
+        "id": 49,
+        "title": "laborum non sunt aut ut assumenda perspiciatis voluptas",
+        "body": "inventore ab sint\nnatus fugit id nulla sequi architecto nihil quaerat\neos tenetur in in eum veritatis non\nquibusdam officiis aspernatur cumque aut commodi aut"
+    },
+    {
+        "userId": 5,
+        "id": 50,
+        "title": "repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem",
+        "body": "error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur"
+    }
+]
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "userId": 1,
+    "title": "Isuru_test",
+    "body": "teststst"
+}
+HTTP/1.1 201 Created
+Date: Mon, 28 Mar 2022 14:09:13 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 77
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1648476612
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/posts/101
+X-Content-Type-Options: nosniff
+Etag: W/"4d-bOsq+6UKjdYaBiNLVoYa+u5eGN8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sZmOetsL7onVns8IhN%2Blq2d%2FmMO56TLFY4oQTsmyaBDSQ5DmppBZ7bq81ziSHa6TnTiODOdztmbUqg1OJZKtyYxrQZOR4LntqUKp7BNC7iiBxPxkt%2BBaD0K%2FyaJJ1xIU%2BpJTovCRgHLMNamS3j%2Bl"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6f30f1392a9c2eb6-SIN
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "id": 101,
+    "userId": 1,
+    "title": "Isuru_test",
+    "body": "teststst"
+}
